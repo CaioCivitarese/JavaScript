@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data 2</title>
+</head>
+<body>
+    <script>
+        var date = new Date();
+        //Dia do mes!
+        //alert(date.getDate());
+
+        //Dia da semana
+        //alert(date.getDay());
+
+        //Ano
+        //alert(date.getFullYear());
+
+        //Hora
+        //alert(date.getHours());
+
+        //Minitos
+        //alert(date.getMinutes());
+
+        var date = new Date('10/03/2025')
+        var date2 = new Date('11/04//2025')
+
+        var diferenca = (date2.getTime() - date.getTime()) / (1000 * 3600 * 24);
+        alert(diferenca);
+    </script>
+</body>
+</html>
